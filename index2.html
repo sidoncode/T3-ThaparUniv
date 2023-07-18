@@ -1,17 +1,77 @@
-<!DOCTYPE html>
 <html>
+    <head>
+        <title>Sample</title>
 
-   <head>
-      <title>Heading Example</title>
-   </head>
-	
-   <body>
-      <h1>This is heading 1</h1>
-      <h2>This is heading 2</h2>
-      <h3>This is heading 3</h3>
-      <h4>This is heading 4</h4>
-      <h5>This is heading 5</h5>
-      <h6>This is heading 6</h6>
-   </body>
-	
+        <style>
+          .rgba1 {
+            background: rgba(0, 153, 0, 0.1);
+        }
+ 
+        .rgba2 {
+            background: rgba(0, 153, 0, 0.5);
+        }
+ 
+        .rgba3 {
+            background: rgba(0, 153, 0, 0.8);
+        }
+ 
+        .rgba4 {
+            background: rgba(0, 153, 0, 1.0);
+        }
+
+        </style>
+
+    </head>
+    
+    <body>
+        <div class = "g1">
+            <p style = "font-size: 24px; font-weight: bold"> Transparent Box</p>
+
+            <div class = "geeks" style="opacity: 0.1;">
+                <p>10% opacity</p>
+            </div>
+
+            <div class = "geeks" style="opacity: 0.5;">
+                <p>50% opacity</p>
+            </div>
+
+            <div class = "geeks" style="opacity: 0.8;">
+                <p>80% opacity</p>
+            </div>
+
+            <div class = "geeks" style="opacity: 1;">
+                <p>100% opacity</p>
+            </div>
+        </div>
+
+        <br>
+        <br>
+
+        <div class="g2">
+            <p style="font-size:24px;font-weight:bold;">
+                RGBA color values
+            </p>
+     
+            <div class="rgba1" id="geek">
+                <p>10% opacity</p>
+     
+            </div>
+            <div class="rgba2" id="geek">
+                <p>50% opacity</p>
+     
+            </div>
+            <div class="rgba3" id="geek">
+                <p>80% opacity</p>
+     
+            </div>
+            <div class="rgba4" id="geek">
+                <p>100% opacity</p>
+     
+            </div>
+        </div>
+
+
+
+    </body>
+
 </html>
