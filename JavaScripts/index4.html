@@ -1,0 +1,18 @@
+<!-- Scope = Global and Local -->
+
+
+<html>
+
+    <body onload=checkscope();>
+
+        <script type="text/javascript">
+            var myvar = "global"
+
+            function checkScope() {
+                var myvar = "local"
+
+                document.write(myvar)
+            }
+            document.write("This is outside the functional scope "+ myvar)
+        </script>
+</html>
